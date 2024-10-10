@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  position: relative;
+}
+.sun {
+  position: absolute;
+  left: 848px;
+  top: 36px;
+  animation-name: mzisbrunva;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+@keyframes mzisbrunva {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.tree {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  top: 330px;
+  left: 1405px;
+  animation-name: xismodzraoba;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes xismodzraoba {
+  from {
+    left: 1405px;
+  }
+  to {
+    left: -100px;
+  }
+}
+.mario {
+  position: absolute;
+  top: 603px;
+  left: 0px;
+  animation-name: mariosgza;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes mariosgza {
+  from {
+    left: -119px;
+  }
+  to {
+    left: 1386px;
+  }
+}
+.luiji {
+  position: absolute;
+  top: 735px;
+  left: 1386px;
+  animation-name: luijisgza;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes luijisgza {
+  0% {
+    left: 1386px;
+  }
+  50% {
+    left: 750px;
+  }
+  100% {
+    left: 1386px;
+  }
+}
